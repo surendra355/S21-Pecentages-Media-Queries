@@ -1,0 +1,97 @@
+#rTataPic{
+    width: 100%;
+
+}
+#tataLogo{
+    width: 220px;
+    position: relative;
+    bottom: 1030px;
+    left: 1050px;
+}
+nav{width: 99%;
+    color: blanchedalmond;
+    background-color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+div{
+    font-size: 3rem;
+}
+
+#car1{width: 400px;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+#car2{width: 40%;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    
+
+}
+#secondChildDiv{
+    width: 60%;
+    height: 150px;
+    background-color: orange;
+}
+#thirdDiv{width: 500px;
+    height: 150px;
+    background-color:blue;
+
+}
+
+#car3{
+    width: 1200px;
+    min-width: 300px;
+    max-width: 900px;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 1px) and 
+(max-width:1576px){
+    body{
+        background-color: lawngreen;}
+        h1{font-size: 5rem;}
+}
+@media only screen and (min-width:576px) and 
+(max-width:768px){
+   body{ background-color: red;}
+   h1{font-size: 3rem;} 
+
+}
+@media only screen and (min-width:768px) and 
+(max-width:992px){
+    body{background-color: magenta;}
+    h1{font-size: 6rem;}
+}
+
+@media only screen and (min-width:992px) and 
+(max-width:1200px){
+    body{
+        background-color: rgb(180, 33, 33);}
+        h1{font-size: 5rem;}
+}
+
+@media only screen and (min-width: 1200px) and 
+(max-width:1400px){
+    body{
+        background-color: rgb(45, 170, 34);}
+        h1{font-size: 5rem;}
+}
+
+@media only screen and (min-width: 1400px){
+
+    body{
+        background-color: rgb(39, 43, 66);}
+        h1{font-size: 5rem;}
+}
